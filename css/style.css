@@ -1,0 +1,21 @@
+#logo{
+/*	CSS properties for logo div id width more than 450px*/
+	width:100%;
+	font-size: 20px;
+	background-color: green;		
+	color: white;
+	padding: 20px;
+}
+@media only screen and (max-width: 450px) {
+	#logo{
+		/*	CSS properties for logo div id width less than 450px*/
+		background-color: blue;
+	}
+}
+body{
+	/*	Clear body unnecessary spacing. */
+	margin: 0;
+	padding: 0;
+	
+	
+}
